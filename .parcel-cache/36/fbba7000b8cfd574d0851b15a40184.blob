@@ -1,0 +1,30 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _componentsNavbar = require('./components/Navbar');
+var _componentsNavbarDefault = _parcelHelpers.interopDefault(_componentsNavbar);
+require("./App.scss");
+var _jsxFileName = "C:\\Users\\kprak\\Development\\magbank\\src\\App.js";
+function App() {
+  return (
+    /*#__PURE__*/React.createElement("div", {
+      className: "App",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6,
+        columnNumber: 5
+      }
+    }, /*#__PURE__*/React.createElement(_componentsNavbarDefault.default, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7,
+        columnNumber: 7
+      }
+    }))
+  );
+}
+_c = App;
+exports.default = App;
+var _c;
+$RefreshReg$(_c, "App");

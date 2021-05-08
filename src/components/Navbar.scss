@@ -1,0 +1,13 @@
+.navbar {
+  font-family: sans-serif;
+  background-color: #8c00b2;
+  color: white;
+  border-bottom: 0.2rem solid #f05656;
+
+  a.dropdown-toggle.nav-link {
+    color: white;
+  }
+  a.dropdown-toggle.nav-link:hover {
+    color: #212529;
+  }
+}

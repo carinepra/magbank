@@ -1,0 +1,141 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+require("./Navbar.scss");
+var _reactBootstrap = require("react-bootstrap");
+var _jsxFileName = "C:\\Users\\kprak\\Development\\magbank\\src\\components\\Navbar.js";
+const Navigation = () => /*#__PURE__*/React.createElement(_reactBootstrap.Navbar, {
+  bg: "light",
+  expand: "lg",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5,
+    columnNumber: 5
+  }
+}, /*#__PURE__*/React.createElement(_reactBootstrap.Navbar.Brand, {
+  href: "#home",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6,
+    columnNumber: 5
+  }
+}, "React-Bootstrap"), /*#__PURE__*/React.createElement(_reactBootstrap.Navbar.Toggle, {
+  "aria-controls": "basic-navbar-nav",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7,
+    columnNumber: 5
+  }
+}), /*#__PURE__*/React.createElement(_reactBootstrap.Navbar.Collapse, {
+  id: "basic-navbar-nav",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8,
+    columnNumber: 5
+  }
+}, /*#__PURE__*/React.createElement(_reactBootstrap.Nav, {
+  className: "mr-auto",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9,
+    columnNumber: 9
+  }
+}, /*#__PURE__*/React.createElement(_reactBootstrap.Nav.Link, {
+  href: "#home",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10,
+    columnNumber: 9
+  }
+}, "Home"), /*#__PURE__*/React.createElement(_reactBootstrap.Nav.Link, {
+  href: "#link",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11,
+    columnNumber: 9
+  }
+}, "Link"), /*#__PURE__*/React.createElement(_reactBootstrap.NavDropdown, {
+  title: "Dropdown",
+  id: "basic-nav-dropdown",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12,
+    columnNumber: 9
+  }
+}, /*#__PURE__*/React.createElement(_reactBootstrap.NavDropdown.Item, {
+  href: "#action/3.1",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 13
+  }
+}, "Action"), /*#__PURE__*/React.createElement(_reactBootstrap.NavDropdown.Item, {
+  href: "#action/3.2",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 13
+  }
+}, "Another action"), /*#__PURE__*/React.createElement(_reactBootstrap.NavDropdown.Item, {
+  href: "#action/3.3",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 13
+  }
+}, "Something"), /*#__PURE__*/React.createElement(_reactBootstrap.NavDropdown.Divider, {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 13
+  }
+}), /*#__PURE__*/React.createElement(_reactBootstrap.NavDropdown.Item, {
+  href: "#action/3.4",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 13
+  }
+}, "Separated link"))), /*#__PURE__*/React.createElement(_reactBootstrap.Form, {
+  inline: true,
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20,
+    columnNumber: 9
+  }
+}, /*#__PURE__*/React.createElement(_reactBootstrap.FormControl, {
+  type: "text",
+  placeholder: "Search",
+  className: "mr-sm-2",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21,
+    columnNumber: 9
+  }
+}), /*#__PURE__*/React.createElement(_reactBootstrap.Button, {
+  variant: "outline-success",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22,
+    columnNumber: 9
+  }
+}, "Search"))));
+_c = Navigation;
+exports.default = Navigation;
+var _c;
+$RefreshReg$(_c, "Navigation");
