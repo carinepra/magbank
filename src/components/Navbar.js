@@ -1,12 +1,21 @@
 import React from 'react';
 import "./Navbar.scss";
+import logo from "../assets/logo.svg"
 
 import { Navbar, Nav, ButtonGroup, Button, NavDropdown, Container } from "react-bootstrap";
 
 const Navigation = () =>  (
     <Navbar variant="dark" expand="lg">
         <Container>
-            <Navbar.Brand href="#home">MAGBANK</Navbar.Brand>
+            <Navbar.Brand href="#home">
+                <img
+                    src={logo}
+                    height="30"
+                    className="d-inline-block align-top"
+                    alt="React Bootstrap logo"
+                ></img>
+
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
